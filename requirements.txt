@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+aiosqlite
+opencv-python
+pytesseract
+alembic
+pydantic
+pytest
+pytest-asyncio
