@@ -41,3 +41,17 @@
 /Docket_App/Frontend/packages/react-devtools-inline/dist
 /Docket_App/Frontend/packages/react-devtools-shell/dist
 /Docket_App/Frontend/packages/react-devtools-timeline/dist
+
+# dependencies
+/Docket_App/Frontend/.pnp
+/Docket_App/Frontend/.pnp.js
+
+# testing
+/Docket_App/Frontend/coverage
+
+# misc
+/Docket_App/Frontend/.DS_Store
+/Docket_App/Frontend/.env.local
+/Docket_App/Frontend/.env.development.local
+/Docket_App/Frontend/.env.test.local
+/Docket_App/Frontend/.env.production.local
