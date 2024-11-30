@@ -1,0 +1,158 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Lexend';
+    margin: 0;
+}
+
+/* General button style */
+button {
+    background-color: #ffffff; /* Green background */
+    border: none; /* Remove border */
+    color: rgb(0, 0, 0); /* White text */
+    border: solid #222222 2px;
+    padding: 15px 32px; /* Padding for size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow margin and padding */
+    font-size: 16px; /* Text size */
+    font-family: 'Lexend', sans-serif; /* Font family */
+    margin: 4px 2px; /* Margin for spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #7d7d7d; /* Darker green on hover */
+    color: whitesmoke;
+}
+
+/* Active state */
+button:active {
+    background-color: #3e8e41; /* Even darker green when active */
+    transform: translateY(2px); /* Slight downward movement */
+}
+
+/* DocketDetailsTable.css */
+#DocketDetailsTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#DocketDetailsTable thead tr th {
+    background-color: whitesmoke;
+}
+
+#DocketDetailsTable thead tr th h1 {
+    font-size: 64px;
+}
+
+#DocketDetailsTable thead tr th input[type=checkbox]{
+    width: 80px;
+    height: 80px;
+}
+
+#DocketDetailsTable thead tr th button{
+    font-size: 48px;
+    font-family: 'lexend';
+}
+
+#DocketDetailsTable thead tr th select{
+    font-size: 48px;
+    font-family: 'lexend';
+}
+
+#DocketDetailsTable th, #DocketDetailsTable td {
+    border: 1px solid #222222;
+    padding: 8px;
+}
+
+/*CustomerDetailsTable*/
+#CustomerDetailsTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#CustomerDetailsTable th, #CustomerDetailsTable td {
+    background-color: whitesmoke;
+    border: 1px solid #222222;
+    padding: 8px;
+}
+
+#CustomerDetailsTable input {
+    width: 98%;
+    font-size: 32px;
+}
+
+/* WeightTable.css */
+#WeightTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#WeightTable thead tr th {
+    text-align: center;
+    background-color: #9fc5e8;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+#WeightTable th, #WeightTable td {
+    border: 1px solid #222222;
+    padding: 8px;
+}
+
+/*TotalsTable.css*/
+#TotalsTable{
+    border-collapse: collapse;
+}
+
+#TotalsTable th, #TotalsTable td {
+    border: 1px solid #222222;
+    padding: 8px;
+    font-size: 32px;
+    width: 300px;
+}
+
+/* ButtonTable.css */
+#ButtonTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ButtonTable thead tr th {
+    text-align: center;
+    background-color: #9fc5e8;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+#ButtonTable th, #ButtonTable td {
+    border: 1px solid #222222;
+    padding: 8px;
+}
+
+#ButtonTable button {
+    font-size: 32px;
+    font-family: 'lexend';
+    width: 100%;
+}
+
+/*TotalNetWeightTable.css*/
+#TotalNetWeightTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#TotalNetWeightTable thead tr th {
+    text-align: center;
+    background-color: #e89fc7;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+#TotalNetWeightTable th, #TotalNetWeightTable td {
+    border: 1px solid #222222;
+    padding: 8px;
+}
