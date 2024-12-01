@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Docket.css';
 
-const DocketApp = () => {
+const Docket = () => {
   const [gstValue, setGstValue] = useState(false);
   const [weightArray, setWeightArray] = useState(Array(24).fill({
     metal: '',
@@ -219,12 +219,22 @@ const DocketApp = () => {
         </tbody>
       </table>
 
-      <div id="ButtonTable">
-        <button id="submitArray">Print</button>
-        <input type='number' id='PrintNumber' placeholder='Print No.'/>
+      <div>
+        <table id="ButtonTable">
+            <thead>
+                <tr>
+                    <th>
+                        <button id="submitArray">Print</button>
+                    </th>
+                    <th>
+                    <input type='number' id='PrintNumber' placeholder='Print No.'/>
+                    </th>
+                </tr>
+            </thead>
+        </table>
       </div>
     </div>
   );
 };
 
-export default DocketApp;
+export default Docket;
